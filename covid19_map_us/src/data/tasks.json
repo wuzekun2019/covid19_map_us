@@ -1,0 +1,252 @@
+{
+    "tasks":[
+        {
+            "id":0,
+            "title": "Get Started!"
+        },
+        {   
+            "id":1,
+            "title": "1:Identify the location of California "
+        },
+        {
+            "id":2,
+            "title": "2:Identify the location of Texas"
+        },
+        {
+            "id":3,
+            "title": "3:Identify the location of Washington"
+        },
+        {
+            "id":4,
+            "title": "4:Identify the location of Florida"
+        },
+        {
+            "id":5,
+            "title": "5:Identify the location of Virginia"
+        },
+        {
+            "id":6,
+            "title": "6:Identify the location of Massachusetts"
+        },
+        {
+            "id":7,
+            "title": "7:Identify the location of Pennsylvania"
+        },
+        {
+            "id":8,
+            "title": "8:Identify the location of New Jersey"
+        },
+        {
+            "id":9,
+            "title": "9:Identify the confirmed cases of California based on its color"
+        },
+        {
+            "id":10,
+            "title": "10:Identify the confirmed cases of New York based on its color"
+        },
+        {
+            "id":11,
+            "title": "11:Identify the confirmed cases of Texas based on its color"
+        },
+        {
+            "id":12,
+            "title": "12;Identify the confirmed cases of Florida based on its color"
+        },
+        {
+            "id":13,
+            "title": "13:Identify the state with confirmed cases number around 0.8"
+        },
+        {
+            "id":14,
+            "title": "14:Identify the state with confirmed cases number around 0.5"
+        },
+        {
+            "id":15,
+            "title": "15:Identify the state with confirmed cases number around 0.3"
+        },
+        {
+            "id":16,
+            "title": "16:Identify the state with highest number of confirmed cases at the last time stamp"
+        },
+        {
+            "id":17,
+            "title": "17:Compare the cases of California and Arizona"
+        },
+        {
+            "id":18,
+            "title": "18:Compare the cases of Washington and Oregon "
+        },
+        {
+            "id":19,
+            "title": "19:Compare the cases of California and Texas"
+        },
+        {
+            "id":20,
+            "title": "20:Compare the cases of California, Texas, Washington and North Carolina"
+        },
+        {
+            "id":21,
+            "title": "21:Summarize the confirmed cases distribution of states adjacent to California"
+        },
+        {
+            "id":22,
+            "title": "22:Summarize the confirmed cases distribution of states adjacent to Texas"
+        },
+        {
+            "id":23,
+            "title": "23:Summarize the confirmed cases distribution of states adjacent to North Carolina "
+        },
+        {
+            "id":24,
+            "title": "24:Summarize the confirmed cases distribution of states in the east coast states"
+        },
+        {
+            "id":25,
+            "title": "25:Summarize the confirmed cases distribution of states in the west coast states"
+        },
+        {
+            "id":26,
+            "title": "26:Summarize the confirmed cases distribution of states adjacent to Canada"
+        },
+        {
+            "id":27,
+            "title": "27:Summarize the confirmed cases distribution of states in the east and west coast"
+        },
+        {
+            "id":28,
+            "title": "28:Summarize the confirmed cases distribution of states adjacent to Canada and Mexico"
+        },
+        {
+            "id":0,
+            "title": "For the exploration task below, please check the relevant data carefully and try to write down what you find after exploring:"
+        },
+        {
+            "id":29,
+            "title": "29:Explore a state you are interested"
+        },
+        {
+            "id":30,
+            "title": "30:Explore a state you are interested"
+        },
+        {
+            "id":31,
+            "title": "31:Summarize the confirmed case trend of California in the time interval"
+        },
+        {
+            "id":32,
+            "title": "32:Summarize the death case trend of Texas in the time interval"
+        },
+        {
+            "id":33,
+            "title": "33:Summarize the confirmed, the death and the recovered trends of Florida in the time interval"
+        },
+        {
+            "id":34,
+            "title": "34:Summarize the confirmed, the death and the recovered trends of Virginia in the time interval"
+        },
+        {
+            "id":35,
+            "title": "35:Compare the confirmed case trends of California and Texas"
+        },
+        {
+            "id":36,
+            "title": "36:Compare the death case trends of Washington and Florida"
+        },
+        {
+            "id":37,
+            "title": "37:Compare the recovered case trends of Virginia and Massachusetts"
+        },
+        {
+            "id":38,
+            "title": "38:Compare the confirmed case trends in the east coast"
+        },
+        {
+            "id":39,
+            "title": "39;Compare the death case trends in the west coast"
+        },
+        {
+            "id":40,
+            "title": "40:Compare the confirmed, death and recovered case trends of the states adjacent to Canada and Mexico"
+        },
+        {
+            "id":0,
+            "title": "For the exploration task below, please check the relevant data carefully and try to write down what you find after exploring:"
+        },
+        {
+            "id":41,
+            "title": "41:Explore a state you have not checked so far"
+        },
+        {
+            "id":42,
+            "title": "42:Explore a state you have not checked so far"
+        },
+        {
+            "id":43,
+            "title": "43:Select different data attributes and explore data values of different states that you are interested in"
+        },
+        {
+            "id":44,
+            "title": "44:Select different data attributes and explore data values of different states that you are interested in"
+        },
+        {
+            "id":45,
+            "title": "45:Switch to different time ranges and explore data values of different states that you are interested in"
+        },
+        {
+            "id":46,
+            "title": "46:Switch to different time ranges and explore data values of different states that you are interested in"
+        },
+        {
+            "id":47,
+            "title": "47:Select different data attributes, select states of your interest and explore the linecharts"
+        },
+        {
+            "id":48,
+            "title": "48:Select different data attributes, select states of your interest and explore the linecharts"
+        },
+        {
+            "id":49,
+            "title": "49:Switch to different time ranges, select states of your interest and explore the linechartsr"
+        },
+        {
+            "id":50,
+            "title": "50:Switch to different time ranges, select states of your interest and explore the linecharts"
+        },
+        {
+            "id":51,
+            "title": "51:Select states of based on your are interested, and explore the linechart"
+        },
+        {
+            "id":52,
+            "title": "52:Select states of based on your are interested, and explore the linecharts"
+        },
+        {
+            "id":53,
+            "title": "53:Select countries California, Texas, Washington and Florida and explore the linecharts while selecting different attributes"
+        },
+        {
+            "id":54,
+            "title": "54:Select countries Virginia, Massachusetts, Pennsylvania and New Jersey and explore the linecharts while selecting different attributes"
+        },
+        {
+            "id":55,
+            "title": "55:Select countries North Carolina, Colorida, Michigan and Arizona and explore the linecharts while switching time range"
+        },
+        {
+            "id":56,
+            "title": "56:Select countries Montana, Georgia, Ohio and Kentucky and explore the linecharts while switching time range"
+        },
+        {
+            "id":57,
+            "title": "57:Select Different attributes, switch between different time ranges and Explorer the line charts"
+        },
+        {
+            "id":58,
+            "title": "58:Select Different attributes, switch between different time ranges and Explorer the line charts"
+        },
+        {
+            "id":999,
+            "title": "End of the tasks"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+.rowC{
+    display:flex; 
+}
+
+.SliderDate{
+    text-align:center;
+    margin:40px;
+    width:100%;
+    height:100%;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+.date{
+    display: inline-block;
+    margin-right:10px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.CovidChart{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    transform: translateX(0); 
+}
+
+.CovidChart div{
+    width: 49%;
+    height: 10%;
+}
+
+.CovidChart.\1, .CovidChart.\2, .CovidChart.\3, .CovidChart.\4{
+    width: 45%;
+    height: 4%;
+}
+
+.fixed_button{
+    position: fixed;
+    bottom: -10%;
+    padding:2em;
+    left:80%;
+}
+
+

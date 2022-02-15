@@ -1,0 +1,44 @@
+{
+  "name": "covid19_map",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "chartjs-plugin-annotation": "^1.1.0",
+    "country-list": "^2.2.0",
+    "file-api": "^0.10.4",
+    "fs": "^0.0.1-security",
+    "leaflet": "^1.7.1",
+    "papaparse": "^5.3.1",
+    "rc-slider": "^9.7.4",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.0",
+    "react-csv": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-leaflet": "^3.2.2",
+    "react-scripts": "4.0.3",
+    "react-tracker": "^0.0.8",
+    "recharts": "^2.1.8",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

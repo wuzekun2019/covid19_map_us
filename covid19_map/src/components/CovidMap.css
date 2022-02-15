@@ -1,0 +1,26 @@
+.leaflet-container{
+    background-color: grey;
+  }
+
+#button-wrapper {
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+#Btn1 {
+ color:rgba(75,192,192,1);
+ width: 100px;
+
+}
+
+#Btn2 {
+  color:rgba(245,39,39,1);
+  width: 100px;
+ }
+
+#Btn3 {
+  color:rgba(39,245,86,1);
+  width: 100px;
+ }
+ 

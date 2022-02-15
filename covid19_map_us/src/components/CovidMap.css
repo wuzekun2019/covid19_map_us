@@ -1,0 +1,45 @@
+.leaflet-container{
+    background-color: grey;
+}
+
+.MapContainer div{
+  float:left;
+  clear:none;
+}
+
+#reset{
+  position:fixed;
+  left:85%;
+  bottom:-5%;
+}
+
+#button-wrapper {
+  position:relative;
+  left:300px;
+  top:200px;
+  width:800px;
+}
+
+#Btn1 {
+ color:rgba(75,192,192,1);
+ width: 100px;
+ margin-right: 10px;
+}
+
+#Btn2 {
+  color:rgba(245,39,39,1);
+  width: 100px;
+  margin-right: 10px;
+ }
+
+#Btn3 {
+  color:rgba(39,245,86,1);
+  width: 100px;
+ }
+
+#Btn_ {
+  color:black;
+  width: 120px;
+  margin: 5px;
+ }
+ 
