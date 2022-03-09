@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BarChart, Bar } from 'recharts';
+import colorBar from '../data/colorbar.png';
 
 // Sample data
 const data = [
@@ -8,9 +8,8 @@ const data = [
 
 export default class ColorBar extends Component {
   render() {
-    return 
-        <BarChart width={10} hight={55} data = {data}>
-            <Bar dataKey={'x'} stackId='a' fill='#006837'></Bar>
-        </BarChart>
+    return (
+        <img src={colorBar}/>
+    )
   }
 }

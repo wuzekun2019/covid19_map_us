@@ -6,243 +6,379 @@
         },
         {   
             "id":1,
-            "title": "1:Identify the location of California "
+            "title": "1:What is the current data value of California?"
         },
         {
             "id":2,
-            "title": "2:Identify the location of Texas"
+            "title": "2:What is the current data value of New York?"
         },
         {
             "id":3,
-            "title": "3:Identify the location of Washington"
+            "title": "3:What is the current data value of Texas?"
         },
         {
             "id":4,
-            "title": "4:Identify the location of Florida"
+            "title": "4:What is the average data value around California?"
         },
         {
             "id":5,
-            "title": "5:Identify the location of Virginia"
+            "title": "5:What is the average data value around Florida?"
         },
         {
             "id":6,
-            "title": "6:Identify the location of Massachusetts"
+            "title": "6:What is the average data value around North Carolina?"
         },
         {
             "id":7,
-            "title": "7:Identify the location of Pennsylvania"
+            "title": "7:Which state has the highest case?"
         },
         {
             "id":8,
-            "title": "8:Identify the location of New Jersey"
+            "title": "8:Which state has the highest case?"
         },
         {
             "id":9,
-            "title": "9:Identify the confirmed cases of California based on its color"
+            "title": "9:Which state has the highest case?"
         },
         {
             "id":10,
-            "title": "10:Identify the confirmed cases of New York based on its color"
+            "title": "10:Sort the cases around California"
         },
         {
             "id":11,
-            "title": "11:Identify the confirmed cases of Texas based on its color"
+            "title": "11:Sort the cases around Texas"
         },
         {
             "id":12,
-            "title": "12;Identify the confirmed cases of Florida based on its color"
+            "title": "12:Sort the cases around North Carolina"
         },
         {
             "id":13,
-            "title": "13:Identify the state with confirmed cases number around 0.8"
+            "title": "13:What is the data range from all the states?"
         },
         {
             "id":14,
-            "title": "14:Identify the state with confirmed cases number around 0.5"
+            "title": "14:What is the data range from all the states?"
         },
         {
             "id":15,
-            "title": "15:Identify the state with confirmed cases number around 0.3"
+            "title": "15:What is the data range from all the states?"
         },
         {
             "id":16,
-            "title": "16:Identify the state with highest number of confirmed cases at the last time stamp"
+            "title": "16:What is the data distribution from all the states?"
         },
         {
             "id":17,
-            "title": "17:Compare the cases of California and Arizona"
+            "title": "17:What is the data distribution from all the states?"
         },
         {
             "id":18,
-            "title": "18:Compare the cases of Washington and Oregon "
+            "title": "18:What is the data distribution from all the states?"
         },
         {
             "id":19,
-            "title": "19:Compare the cases of California and Texas"
+            "title": "19:Find anormalies that are different in a local region"
         },
         {
             "id":20,
-            "title": "20:Compare the cases of California, Texas, Washington and North Carolina"
+            "title": "20:Find anormalies that are different in a local region"
         },
         {
             "id":21,
-            "title": "21:Summarize the confirmed cases distribution of states adjacent to California"
+            "title": "21:Find anormalies that are different in a local region"
         },
         {
             "id":22,
-            "title": "22:Summarize the confirmed cases distribution of states adjacent to Texas"
+            "title": "22:Clustering the states based on the data values"
         },
         {
             "id":23,
-            "title": "23:Summarize the confirmed cases distribution of states adjacent to North Carolina "
+            "title": "23:Clustering the states based on the data values"
         },
         {
             "id":24,
-            "title": "24:Summarize the confirmed cases distribution of states in the east coast states"
+            "title": "24:Clustering the states based on the data values"
         },
         {
             "id":25,
-            "title": "25:Summarize the confirmed cases distribution of states in the west coast states"
+            "title": "25:Find something you are interested in or find something new"
         },
         {
             "id":26,
-            "title": "26:Summarize the confirmed cases distribution of states adjacent to Canada"
+            "title": "26:Find something you are interested in or find something new"
         },
         {
             "id":27,
-            "title": "27:Summarize the confirmed cases distribution of states in the east and west coast"
+            "title": "27:Find something you are interested in or find something new"
         },
         {
             "id":28,
-            "title": "28:Summarize the confirmed cases distribution of states adjacent to Canada and Mexico"
-        },
-        {
-            "id":0,
-            "title": "For the exploration task below, please check the relevant data carefully and try to write down what you find after exploring:"
+            "title": "28:Summarize the confirmed, the death and the recovered trends of Florida"
         },
         {
             "id":29,
-            "title": "29:Explore a state you are interested"
+            "title": "29:Summarize the confirmed, the death and the recovered trends of Virginia"
         },
         {
             "id":30,
-            "title": "30:Explore a state you are interested"
+            "title": "30:Summarize the confirmed, the death and the recovered trends of Massachusetts"
         },
         {
             "id":31,
-            "title": "31:Summarize the confirmed case trend of California in the time interval"
+            "title": "31:What is the average confimred case number of Washington in the time interval?"
         },
         {
             "id":32,
-            "title": "32:Summarize the death case trend of Texas in the time interval"
+            "title": "32:What is the average death case number of Washington in the time interval?"
         },
         {
             "id":33,
-            "title": "33:Summarize the confirmed, the death and the recovered trends of Florida in the time interval"
+            "title": "33:What is the average recovered case number of Washington in the time interval?"
         },
         {
             "id":34,
-            "title": "34:Summarize the confirmed, the death and the recovered trends of Virginia in the time interval"
+            "title": "34:Which timestamp does the confimed case of Florida increase the most?"
         },
         {
             "id":35,
-            "title": "35:Compare the confirmed case trends of California and Texas"
+            "title": "35:Which timestamp does the death case of Florida increase the most?"
         },
         {
             "id":36,
-            "title": "36:Compare the death case trends of Washington and Florida"
+            "title": "36:Which timestamp does the recovered case of Florida increase the most?"
         },
         {
             "id":37,
-            "title": "37:Compare the recovered case trends of Virginia and Massachusetts"
+            "title": "37:Rank the top three timestamps that the confirmed case of New York inceasing the most."
         },
         {
             "id":38,
-            "title": "38:Compare the confirmed case trends in the east coast"
+            "title": "38:Rank the top three timestamps that the death case of New York inceasing the most."
         },
         {
             "id":39,
-            "title": "39;Compare the death case trends in the west coast"
+            "title": "39:Rank the top three timestamps that the recovered case of New York inceasing the most."
         },
         {
             "id":40,
-            "title": "40:Compare the confirmed, death and recovered case trends of the states adjacent to Canada and Mexico"
-        },
-        {
-            "id":0,
-            "title": "For the exploration task below, please check the relevant data carefully and try to write down what you find after exploring:"
+            "title": "40:What is the range of the confirmed case numbers of Texas during the second half of the duration?"
         },
         {
             "id":41,
-            "title": "41:Explore a state you have not checked so far"
+            "title": "41:What is the range of the death case numbers of Texas during the second half of the duration?"
         },
         {
             "id":42,
-            "title": "42:Explore a state you have not checked so far"
+            "title": "42:What is the range of the recovered case numbers of Texas during the second half of the duration?"
         },
         {
             "id":43,
-            "title": "43:Select different data attributes and explore data values of different states that you are interested in"
+            "title": "43:Describe data distribution of the confirmed case in California"
         },
         {
             "id":44,
-            "title": "44:Select different data attributes and explore data values of different states that you are interested in"
+            "title": "44:Describe data distribution of the confirmed case in Massachusetts"
         },
         {
             "id":45,
-            "title": "45:Switch to different time ranges and explore data values of different states that you are interested in"
+            "title": "45:Describe data distribution of the confirmed case in North Carolina"
         },
         {
             "id":46,
-            "title": "46:Switch to different time ranges and explore data values of different states that you are interested in"
+            "title": "46:Are there any abnomal durations for confirmed cases of Washington (any rapid increase or sudden drop)?"
         },
         {
             "id":47,
-            "title": "47:Select different data attributes, select states of your interest and explore the linecharts"
+            "title": "47:Are there any abnomal durations for confirmed cases of New York (any rapid increase or sudden drop)?"
         },
         {
             "id":48,
-            "title": "48:Select different data attributes, select states of your interest and explore the linecharts"
+            "title": "48:Are there any abnomal durations for confirmed cases of Florida (any rapid increase or sudden drop)?"
         },
         {
             "id":49,
-            "title": "49:Switch to different time ranges, select states of your interest and explore the linechartsr"
+            "title": "49:Divide the timeinterval into different segments based on the confirmed cases of California."
         },
         {
             "id":50,
-            "title": "50:Switch to different time ranges, select states of your interest and explore the linecharts"
+            "title": "50:Divide the timeinterval into different segments based on the confirmed cases of Texas."
         },
         {
             "id":51,
-            "title": "51:Select states of based on your are interested, and explore the linechart"
+            "title": "51:Divide the timeinterval into different segments based on the confirmed cases of North Carolina."
         },
         {
             "id":52,
-            "title": "52:Select states of based on your are interested, and explore the linecharts"
+            "title": "52:Does the death case of Texas increase with the confirmed case of Arizona?"
         },
         {
             "id":53,
-            "title": "53:Select countries California, Texas, Washington and Florida and explore the linecharts while selecting different attributes"
+            "title": "53:Does the death case of Massachusetts increase with the confirmed case of New Jersey?"
         },
         {
             "id":54,
-            "title": "54:Select countries Virginia, Massachusetts, Pennsylvania and New Jersey and explore the linecharts while selecting different attributes"
+            "title": "54:Does the recovered case of North Carolina increase with the confirmed case of Florida?"
         },
         {
             "id":55,
-            "title": "55:Select countries North Carolina, Colorida, Michigan and Arizona and explore the linecharts while switching time range"
+            "title": "55:Find something interesting from the timeline or explore a time interval you have not checked so far"
         },
         {
             "id":56,
-            "title": "56:Select countries Montana, Georgia, Ohio and Kentucky and explore the linecharts while switching time range"
+            "title": "56:Find something interesting from the timeline or explore a time interval you have not checked so far"
         },
         {
             "id":57,
-            "title": "57:Select Different attributes, switch between different time ranges and Explorer the line charts"
+            "title": "57:Find something interesting from the timeline or explore a time interval you have not checked so far"
         },
         {
             "id":58,
-            "title": "58:Select Different attributes, switch between different time ranges and Explorer the line charts"
+            "title": "58:Select different attributes"
+        },
+        {
+            "id":59,
+            "title": "59:Select different attributes"
+        },
+        {
+            "id":60,
+            "title": "60:Select different attributes"
+        },
+        {
+            "id":61,
+            "title": "61:Select a state"
+        },
+        {
+            "id":62,
+            "title": "62:Select a state"
+        },
+        {
+            "id":63,
+            "title": "63:Select a state"
+        },
+        {
+            "id":64,
+            "title": "64:Switch a different time stamp"
+        },
+        {
+            "id":65,
+            "title": "65:Switch a different time stamp"
+        },
+        {
+            "id":66,
+            "title": "66:Switch a different time stamp"
+        },
+        {
+            "id":67,
+            "title": "67:Summarize average value of states in the west coast in the second half time interval"
+        },
+        {
+            "id":68,
+            "title": "68:Summarize average value of states in the east coast in the second half time interval"
+        },
+        {
+            "id":69,
+            "title": "69:Summarize average value of states in the middle west in the second half time interval"
+        },
+        {
+            "id":70,
+            "title": "70:Find the maximum value of states in the west coast in the second half time interval"
+        },
+        {
+            "id":71,
+            "title": "71:Find the maximum value of states in the east coast in the second half time interval"
+        },
+        {
+            "id":72,
+            "title": "72:Find the maximum value of states in the middle west in the second half time interval"
+        },
+        {
+            "id":73,
+            "title": "73:Sort states in the west coast within the first half time interval based on average value?"
+        },
+        {
+            "id":74,
+            "title": "74:Sort states in the east coast within the first half time interval based on increasing rate?"
+        },
+        {
+            "id":75,
+            "title": "75:Sort states in the west coast within the first half time interval based on increasing rate?"
+        },
+        {
+            "id":76,
+            "title": "76:What is the data range between the average confirmed case number in the west coast at the middle of time interval?"
+        },
+        {
+            "id":77,
+            "title": "77:What is the data range between the average confirmed case number in the east coast at the middle of time interval?"
+        },
+        {
+            "id":78,
+            "title": "78:What is the data range between the average confirmed case number in the south at the middle of time interval?"
+        },
+        {
+            "id":79,
+            "title": "79:Describe the distribution of confirmed cases among west coast in the middle time stamp?"
+        },
+        {
+            "id":80,
+            "title": "80:Describe the distribution of confirmed cases among middle west in the middle time stamp?"
+        },
+        {
+            "id":81,
+            "title": "81:Describe the distribution of confirmed cases among southern states in the middle time stamp?"
+        },
+        {
+            "id":82,
+            "title": "82:Are there outliers in the middle west in the second half time interval?"
+        },
+        {
+            "id":83,
+            "title": "83:Are there outliers in the west coast in the second half time interval?"
+        },
+        {
+            "id":84,
+            "title": "84:Are there outliers in the south in the second half time interval?"
+        },
+        {
+            "id":85,
+            "title": "85:Are there other states similar to data trends in North Carolina?"
+        },
+        {
+            "id":86,
+            "title": "86:Are there other states similar to data trends in Texas?"
+        },
+        {
+            "id":87,
+            "title": "87:Are there other states similar to data trends in Missouri?"
+        },
+        {
+            "id":88,
+            "title": "88:Is there a correlation between data of north states and south states?"
+        },
+        {
+            "id":89,
+            "title": "89:Is there a correlation between data of east states and west states?"
+        },
+        {
+            "id":90,
+            "title": "90:Is there a correlation between data of eastsouth states and northwest states?"
+        },
+        {
+            "id":91,
+            "title": "91:Find something you are interested in or find something new with both visualizations"
+        },
+        {
+            "id":92,
+            "title": "92:Find something you are interested in or find something new with both visualizations"
+        },
+        {
+            "id":93,
+            "title": "93:Find something you are interested in or find something new with both visualizations"
+        },
+        {
+            "id":94,
+            "title": "94:Explore the whole data, find 10 insights related to the handling of pandemic. At the end, draw a conclusion how to better handle such situations based on your findings."
         },
         {
             "id":999,

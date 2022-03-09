@@ -56,7 +56,6 @@ const Covid=() => {
     }   
 
     const handlerSliderDate = (date) =>{
-        console.log(date)
         setDate(date)    
     }
 

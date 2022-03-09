@@ -14,7 +14,7 @@ var end_dates = ['6/8/20','10/25/20','3/13/2020','7/30/2021','12/16/2021']
 // var repeated_click = 0
 // var dataset;
 
-var space_task_no = Array(41 - 31 + 1).fill().map((_, idx) => 31 + idx)
+var space_task_no = Array(54 - 28 + 1).fill().map((_, idx) => 27 + idx)
 
 function formatDate_(date) {
     var d = new Date(date),
@@ -94,16 +94,41 @@ export default class CovidChart_ extends Component {
                 this.setState({taskNo:this.props.taskNo})
             }
             else{
-                if (this.props.taskNo == 31){
+                console.log(this.props.taskNo)
+                if (this.props.taskNo == 27){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'California'
+                    let state = 'Florida'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 28){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Virginia'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 29){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Massachusetts'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 30){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Washington'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 31){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Washington'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
                 }
                 else if (this.props.taskNo == 32){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'Texas'
+                    let state = 'Washington'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
                 }
                 else if (this.props.taskNo == 33){
@@ -115,61 +140,124 @@ export default class CovidChart_ extends Component {
                 else if (this.props.taskNo == 34){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'Virginia'
+                    let state = 'Florida'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
                 }
                 else if (this.props.taskNo == 35){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'California'
+                    let state = 'Florida'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
-                    let state_ = 'Texas'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state_,end_date,statelist);
                 }
                 else if (this.props.taskNo == 36){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'Washington'
+                    let state = 'New York'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
-                    let state_ = 'Florida'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state_,end_date,statelist);
                 }
                 else if (this.props.taskNo == 37){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'Virginia'
+                    let state = 'New York'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
-                    let state_ = 'Massachusetts'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state_,end_date,statelist);
                 }
                 else if (this.props.taskNo == 38){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'Massachusetts'
+                    let state = 'New York'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
-                    let state_ = 'New York'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state_,end_date,statelist);
-                    let state__ = 'North Carolina'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state__,end_date,statelist);
                 }
                 else if (this.props.taskNo == 39){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'California'
+                    let state = 'Texas'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
-                    let state_ = 'Oregon'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state_,end_date,statelist);
-                    let state__ = 'Washington'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state__,end_date,statelist);
                 }
                 else if (this.props.taskNo == 40){
                     this.reset();
                     this.setState({taskNo:this.props.taskNo});
-                    let state = 'Montana'
+                    let state = 'Texas'
                     this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
-                    let state_ = 'Arizona'
-                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state_,end_date,statelist);
                 }
+                else if (this.props.taskNo == 41){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Texas'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 42){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'California'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 43){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Massachusetts'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 44){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'North Carolina'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 45){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Washington'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 46){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'New York'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 47){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Florida'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 48){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'California'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 49){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Texas'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 50){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'North Carolina'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 51){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Arizona'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 52){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'New Jersey'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+                else if (this.props.taskNo == 53){
+                    this.reset();
+                    this.setState({taskNo:this.props.taskNo});
+                    let state = 'Florida'
+                    this.updateData(resultConfirmed,resultDeath,resultRecovered,state,end_date,statelist);
+                }
+
             }
         }
     }

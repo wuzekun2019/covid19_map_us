@@ -58,7 +58,7 @@ export default class DataTracker extends Component {
 // }
 
     componentDidMount() {
-        this.interval = setInterval(()=>this.setState({seconds: this.state.seconds+1}), 1000)
+        this.interval = setInterval(()=>this.setState({seconds: this.state.seconds+0.5}), 500)
     }
 
     componentWillMount() {
@@ -73,7 +73,7 @@ export default class DataTracker extends Component {
 
     componentWillUnmount() {
         clearInterval(this.interval);
-      }
+    }
 
     // componentWillReceiveProps() {
     //     if(this.props.startTask){
@@ -164,11 +164,11 @@ export default class DataTracker extends Component {
                 }
                 dataset['selected_states'] = selected_states
                 dataset['clicked_state'] = this.props.clickstate
+                dataset['mouse_coodinates'] = this.props.cood
                 
                 dataset['time'] = this.state.seconds
 
                 this.setState({dataSet: dataset})
-
                 TrackData.push(dataset)
             }
         }

@@ -9,7 +9,7 @@ const style = { width: 600, margin: 50 };
 var start_dates = ['1/22/20','6/9/20','10/26/20','3/14/21','7/31/21']
 var end_dates = ['6/8/20','10/25/20','3/13/21','7/30/21','12/16/21']
 
-var time_task_no = Array.from(Array(28).keys())
+var time_task_no = Array.from(Array(24).keys())
 
 
 // First date w/ data CSSE dataset
@@ -52,7 +52,6 @@ export default class TimeSlider extends Component {
       let random_value = Math.random() * (100 - 80) + 80;
       if(time_task_no.includes(this.props.taskNo)){
         if(this.props.taskNo.length!=0 && this.state.timeInterval != this.props.timeInterval){
-          console.log(0)
           this.setState({value:random_value})
           this.setState({taskNo:this.props.taskNo})
           this.setState({timeInterval:this.props.timeInterval})
@@ -97,8 +96,6 @@ export default class TimeSlider extends Component {
 
       const difference_in_time = date_of_last_record.getTime() - date_of_first_record.getTime();
       const difference_in_days = Math.floor(difference_in_time / (1000 * 3600 * 24)) ;
-
-      console.log(this.props)
 
       return (
 

@@ -42,4 +42,22 @@
   width: 120px;
   margin: 5px;
  }
+
+ .float-container {
+  display: flex;
+}
+
+.float-child {
+  flex: 1;
+}  
+
+.float-child:nth-child(2)  {
+  height: auto; 
+  width: auto; 
+}  
+
+img {
+  width: 90%;
+  height: 100%;
+}
  

@@ -3,6 +3,8 @@ import {MapContainer, GeoJSON, TileLayer, Marker, Popup, Circle, useMap} from 'r
 // import { Tracker } from 'react-tracker';
 import "leaflet/dist/leaflet.css"
 import './CovidMap.css'
+import { BehaviorSubject } from 'rxjs';
+import { throttle } from 'rxjs/operators';
 import ColorBar from './ColorBar';
 
 const mapStyle = {
@@ -66,6 +68,7 @@ function rgbToHex(r, g, b) {
 }
 
 function getColor_(d){
+    
     const reds = [0.0,0.101,0.4,0.650,0.850,1.0,0.996,0.992,0.956,0.843,0.647]
     const greens = [0.407,0.596,0.741,0.850,0.937,1.0,0.878,0.682,0.427,0.188,0.0]
     const blues = [0.215,0.313,0.388,0.415,0.545,0.749,0.545,0.380,0.262,0.152,0.149]
@@ -88,7 +91,6 @@ function getColor_(d){
         g=255
         b=255
     }
-    console.log(rgbToHex(r, g, b))
     return rgbToHex(r, g, b)
 }
 
@@ -133,6 +135,7 @@ export default class CovidMap_ extends Component {
         this.handleClick = this.handleClick.bind(this)
         this.handleClick_ = this.handleClick_.bind(this)
         this.handleClick__ = this.handleClick__.bind(this)
+        this.inputStream = new BehaviorSubject()
     }
 
     handleClick(){
@@ -192,10 +195,21 @@ export default class CovidMap_ extends Component {
 
     componentDidMount() {
         window.addEventListener("click", this.fgetClickPosition);
+        let enableCall = true;
+        window.addEventListener("mousemove", e => {
+            if (!enableCall) return;
+            enableCall = false;
+            this.logMousePosition(e);
+            setTimeout(() => enableCall = true, 500);
+          });
     }
 
-    componentWillReceiveProps() {
+    componentWillUnmount() {
+        // Make sure to remove the DOM listener when the component is unmounted.
+        window.removeEventListener("mousemove",this.logMousePosition);
+      }
 
+    componentWillReceiveProps() {
         this.setState({timeInterval:this.props.timeInterval,
                         date:this.props.date})
         
@@ -265,11 +279,15 @@ export default class CovidMap_ extends Component {
         return (
 
             <div className='Map'>
-                <div  id="MapContainer">
-                    <MapContainer style={{ width:"45vw", height:"55vh"}} center ={[38,-95]} zoom = {4} scrollWheelZoom={false}  dragging={false} doubleClickZoom={false} scrollWheelZoom={false} attributionControl={false} zoomControl={false}>
-                        {this.renderStates(this.props.states,this.state.mapData)}
-                    </MapContainer>
-                    {/* <ColorBar/> */}
+                <div class="float-container" id="MapContainer">
+                    <div class="float-child">
+                        <MapContainer style={{ width:"45vw", height:"55vh"}} center ={[38,-95]} zoom = {4} scrollWheelZoom={false}  dragging={false} doubleClickZoom={false} scrollWheelZoom={false} attributionControl={false} zoomControl={false}>
+                            {this.renderStates(this.props.states,this.state.mapData)}
+                        </MapContainer>
+                    </div>
+                    <div class="float-child">
+                        <ColorBar/>
+                    </div>
                 </div>
                 <div id="button-wrapper">
                         <input type="button" id="Btn1" value="Confirmed" onClick={ this.handleClick }/>
