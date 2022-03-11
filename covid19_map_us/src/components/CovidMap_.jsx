@@ -200,7 +200,7 @@ export default class CovidMap_ extends Component {
             if (!enableCall) return;
             enableCall = false;
             this.logMousePosition(e);
-            setTimeout(() => enableCall = true, 500);
+            setTimeout(() => enableCall = true, 10);
           });
     }
 
@@ -256,6 +256,8 @@ export default class CovidMap_ extends Component {
             // let style = () => { color: 'green' };  
             let name = state.properties.NAME;
             let d = mapData[name] 
+
+            console.log(mapData)
 
             let color = getColor_(d)
 

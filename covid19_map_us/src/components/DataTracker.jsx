@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { CSVLink } from "react-csv";
+import { CSVLink,CSVDownload } from "react-csv";
 
 var TrackData = []
 
@@ -58,7 +58,7 @@ export default class DataTracker extends Component {
 // }
 
     componentDidMount() {
-        this.interval = setInterval(()=>this.setState({seconds: this.state.seconds+0.5}), 500)
+        this.interval = setInterval(()=>this.setState({seconds: this.state.seconds+0.1}), 100)
     }
 
     componentWillMount() {
@@ -173,9 +173,14 @@ export default class DataTracker extends Component {
             }
         }
 
+        console.log(this.props.taskNo)
+
         return (
             <div>
-                <CSVLink data={TrackData}>Download me</CSVLink>;
+                {this.props.taskNo==94?
+                        (<CSVDownload data={TrackData} target="_blank" />):(<div></div>)
+                        /* <CSVLink data={TrackData}>Download me</CSVLink>; */
+                }
             </div>
         )
     }
