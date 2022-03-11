@@ -283,7 +283,7 @@ export default class CovidMap_ extends Component {
             <div className='Map'>
                 <div class="float-container" id="MapContainer">
                     <div class="float-child">
-                        <MapContainer style={{ width:"45vw", height:"55vh"}} center ={[38,-95]} zoom = {4} scrollWheelZoom={false}  dragging={false} doubleClickZoom={false} scrollWheelZoom={false} attributionControl={false} zoomControl={false}>
+                        <MapContainer style={{ width:"45vw", height:"55vh"}} center ={[38,-95]} zoom = {4} scrollWheelZoom={false}  dragging={false} doubleClickZoom={false} attributionControl={false} zoomControl={false}>
                             {this.renderStates(this.props.states,this.state.mapData)}
                         </MapContainer>
                     </div>
