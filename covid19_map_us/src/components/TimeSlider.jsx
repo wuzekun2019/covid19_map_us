@@ -9,7 +9,7 @@ const style = { width: 600, margin: 50 };
 var start_dates = ['1/22/20','6/9/20','10/26/20','3/14/21','7/31/21']
 var end_dates = ['6/8/20','10/25/20','3/13/21','7/30/21','12/16/21']
 
-var time_task_no = Array.from(Array(27).keys())
+var time_task_no = Array.from(Array(30).keys())
 
 
 // First date w/ data CSSE dataset
