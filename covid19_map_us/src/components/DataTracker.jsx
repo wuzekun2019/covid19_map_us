@@ -173,7 +173,6 @@ export default class DataTracker extends Component {
             }
         }
 
-        console.log(this.props.taskNo)
 
         return (
             <div>

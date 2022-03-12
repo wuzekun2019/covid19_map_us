@@ -171,6 +171,9 @@ export default class CovidMap_ extends Component {
         this.props.handlerButtonChoice(2)
         for (let i=0;i<this.props.dataset__.length;i++){
             let data = this.props.dataset__[i]
+            console.log(data)
+            console.log(formatDate_(this.props.date))
+            console.log(data[formatDate_(this.props.date)])
             // mapset[data["Country"]]=data[this.props.date]
             mapset[data["Province_State"]]=data[formatDate_(this.props.date)]
             this.setState({mapData: mapset})
@@ -256,8 +259,6 @@ export default class CovidMap_ extends Component {
             // let style = () => { color: 'green' };  
             let name = state.properties.NAME;
             let d = mapData[name] 
-
-            console.log(mapData)
 
             let color = getColor_(d)
 
