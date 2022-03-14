@@ -58,7 +58,7 @@ export default class DataTracker extends Component {
 // }
 
     componentDidMount() {
-        this.interval = setInterval(()=>this.setState({seconds: this.state.seconds+0.1}), 100)
+        this.interval = setInterval(()=>this.setState({seconds: this.state.seconds+0.02}), 20)
     }
 
     componentWillMount() {

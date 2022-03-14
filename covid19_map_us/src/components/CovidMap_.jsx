@@ -197,7 +197,7 @@ export default class CovidMap_ extends Component {
             if (!enableCall) return;
             enableCall = false;
             this.logMousePosition(e);
-            setTimeout(() => enableCall = true, 10);
+            setTimeout(() => enableCall = true, 1);
           });
     }
 
