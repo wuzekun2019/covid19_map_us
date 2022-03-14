@@ -145,7 +145,6 @@ export default class CovidMap_ extends Component {
         this.props.handlerButtonChoice(0)
         for (let i=0;i<this.props.dataset.length;i++){
             let data = this.props.dataset[i]
-            // mapset[data["Country"]]=data[this.props.date]
             mapset[data["Province_State"]]=data[formatDate_(this.props.date)]
             this.setState({mapData: mapset})
         }
@@ -158,7 +157,6 @@ export default class CovidMap_ extends Component {
         this.props.handlerButtonChoice(1)
         for (let i=0;i<this.props.dataset_.length;i++){
             let data = this.props.dataset_[i]
-            // mapset[data["Country"]]=data[this.props.date]
             mapset[data["Province_State"]]=data[formatDate_(this.props.date)]
             this.setState({mapData: mapset})
         }
@@ -171,7 +169,6 @@ export default class CovidMap_ extends Component {
         this.props.handlerButtonChoice(2)
         for (let i=0;i<this.props.dataset__.length;i++){
             let data = this.props.dataset__[i]
-            // mapset[data["Country"]]=data[this.props.date]
             mapset[data["Province_State"]]=data[formatDate_(this.props.date)]
             this.setState({mapData: mapset})
         }
@@ -200,7 +197,7 @@ export default class CovidMap_ extends Component {
             if (!enableCall) return;
             enableCall = false;
             this.logMousePosition(e);
-            setTimeout(() => enableCall = true, 500);
+            setTimeout(() => enableCall = true, 1);
           });
     }
 
@@ -256,7 +253,9 @@ export default class CovidMap_ extends Component {
             // let style = () => { color: 'green' };  
             let name = state.properties.NAME;
             let d = mapData[name] 
-
+            if (d>1){
+                d=1
+            }
             let color = getColor_(d)
 
             let style = {
@@ -281,7 +280,7 @@ export default class CovidMap_ extends Component {
             <div className='Map'>
                 <div class="float-container" id="MapContainer">
                     <div class="float-child">
-                        <MapContainer style={{ width:"45vw", height:"55vh"}} center ={[38,-95]} zoom = {4} scrollWheelZoom={false}  dragging={false} doubleClickZoom={false} scrollWheelZoom={false} attributionControl={false} zoomControl={false}>
+                        <MapContainer style={{ width:"45vw", height:"55vh"}} center ={[38,-95]} zoom = {4} scrollWheelZoom={false}  dragging={false} doubleClickZoom={false} attributionControl={false} zoomControl={false}>
                             {this.renderStates(this.props.states,this.state.mapData)}
                         </MapContainer>
                     </div>

@@ -45,8 +45,6 @@ export default class UserTask extends Component {
         var resultDeath =  deaths[this.state.timeInterval]
         var resultRecovered = recovereds[this.state.timeInterval]
 
-        console.log(resultConfirmed)
-
         this.props.handlerDataset(resultConfirmed)
         this.props.handlerDataset_(resultDeath)
         this.props.handlerDataset__(resultRecovered)

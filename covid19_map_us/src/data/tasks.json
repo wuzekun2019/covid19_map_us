@@ -102,283 +102,295 @@
         },
         {
             "id":25,
-            "title": "25:Find something you are interested in or find something new"
+            "title": "25:Is there a similarity between the states around Arizona and the states around Maine?"
         },
         {
             "id":26,
-            "title": "26:Find something you are interested in or find something new"
+            "title": "26:Is there a similarity between the states around Utah and the states around New York?"
         },
         {
             "id":27,
-            "title": "27:Find something you are interested in or find something new"
+            "title": "27:Is there a similarity between the states around Washington and the states around North Carolina?"
         },
         {
             "id":28,
-            "title": "28:Summarize the confirmed, the death and the recovered trends of Florida"
+            "title": "28:Find something you are interested in or find something new"
         },
         {
             "id":29,
-            "title": "29:Summarize the confirmed, the death and the recovered trends of Virginia"
+            "title": "29:Find something you are interested in or find something new"
         },
         {
             "id":30,
-            "title": "30:Summarize the confirmed, the death and the recovered trends of Massachusetts"
+            "title": "30:Find something you are interested in or find something new"
         },
         {
             "id":31,
-            "title": "31:What is the average confimred case number of Washington in the time interval?"
+            "title": "31:Summarize the confirmed, the death and the recovered trends of Florida"
         },
         {
             "id":32,
-            "title": "32:What is the average death case number of Washington in the time interval?"
+            "title": "32:Summarize the confirmed, the death and the recovered trends of Virginia"
         },
         {
             "id":33,
-            "title": "33:What is the average recovered case number of Washington in the time interval?"
+            "title": "33:Summarize the confirmed, the death and the recovered trends of Massachusetts"
         },
         {
             "id":34,
-            "title": "34:Which timestamp does the confimed case of Florida increase the most?"
+            "title": "34:What is the average confirmed case number in the time interval?"
         },
         {
             "id":35,
-            "title": "35:Which timestamp does the death case of Florida increase the most?"
+            "title": "35:What is the average confirmed case number in the time interval?"
         },
         {
             "id":36,
-            "title": "36:Which timestamp does the recovered case of Florida increase the most?"
+            "title": "36:What is the average confirmed case number in the time interval?"
         },
         {
             "id":37,
-            "title": "37:Rank the top three timestamps that the confirmed case of New York inceasing the most."
+            "title": "37:Which timestamp does the confimed case of Florida increase the most?"
         },
         {
             "id":38,
-            "title": "38:Rank the top three timestamps that the death case of New York inceasing the most."
+            "title": "35:Which timestamp does the confirmed case increase the most?"
         },
         {
             "id":39,
-            "title": "39:Rank the top three timestamps that the recovered case of New York inceasing the most."
+            "title": "39:Which timestamp does the recovered case increase the most?"
         },
         {
             "id":40,
-            "title": "40:What is the range of the confirmed case numbers of Texas during the second half of the duration?"
+            "title": "40:Rank the top three timestamps that the confirmed case inceasing the most."
         },
         {
             "id":41,
-            "title": "41:What is the range of the death case numbers of Texas during the second half of the duration?"
+            "title": "41:Rank the top three timestamps that the confirmed case inceasing the most."
         },
         {
             "id":42,
-            "title": "42:What is the range of the recovered case numbers of Texas during the second half of the duration?"
+            "title": "42:Rank the top three timestamps that the recovered case inceasing the most."
         },
         {
             "id":43,
-            "title": "43:Describe data distribution of the confirmed case in California"
+            "title": "43:What is the range of the confirmed case numbers during the second half of the duration?"
         },
         {
             "id":44,
-            "title": "44:Describe data distribution of the confirmed case in Massachusetts"
+            "title": "44:What is the range of the confirmed case numbers during the second half of the duration?"
         },
         {
             "id":45,
-            "title": "45:Describe data distribution of the confirmed case in North Carolina"
+            "title": "45:What is the range of the recovered case numbers during the second half of the duration?"
         },
         {
             "id":46,
-            "title": "46:Are there any abnomal durations for confirmed cases of Washington (any rapid increase or sudden drop)?"
+            "title": "46:Describe data distribution of the confirmed case"
         },
         {
             "id":47,
-            "title": "47:Are there any abnomal durations for confirmed cases of New York (any rapid increase or sudden drop)?"
+            "title": "47:Describe data distribution of the confirmed case"
         },
         {
             "id":48,
-            "title": "48:Are there any abnomal durations for confirmed cases of Florida (any rapid increase or sudden drop)?"
+            "title": "48:Describe data distribution of the confirmed case"
         },
         {
             "id":49,
-            "title": "49:Divide the timeinterval into different segments based on the confirmed cases of California."
+            "title": "49:Are there any abnomal durations for confirmed cases of Washington (any rapid increase or sudden drop)?"
         },
         {
             "id":50,
-            "title": "50:Divide the timeinterval into different segments based on the confirmed cases of Texas."
+            "title": "50:Are there any abnomal durations for confirmed cases of New York (any rapid increase or sudden drop)?"
         },
         {
             "id":51,
-            "title": "51:Divide the timeinterval into different segments based on the confirmed cases of North Carolina."
+            "title": "51:Are there any abnomal durations for confirmed cases of Florida (any rapid increase or sudden drop)?"
         },
         {
             "id":52,
-            "title": "52:Does the death case of Texas increase with the confirmed case of Arizona?"
+            "title": "52:Divide the timeinterval into different segments based on the confirmed cases of California."
         },
         {
             "id":53,
-            "title": "53:Does the death case of Massachusetts increase with the confirmed case of New Jersey?"
+            "title": "53:Divide the timeinterval into different segments based on the confirmed cases of Texas."
         },
         {
             "id":54,
-            "title": "54:Does the recovered case of North Carolina increase with the confirmed case of Florida?"
+            "title": "54:Divide the timeinterval into different segments based on the confirmed cases of North Carolina."
         },
         {
             "id":55,
-            "title": "55:Find something interesting from the timeline or explore a time interval you have not checked so far"
+            "title": "55:Does the confirmed case of Texas increase with the confirmed case of Arizona?"
         },
         {
             "id":56,
-            "title": "56:Find something interesting from the timeline or explore a time interval you have not checked so far"
+            "title": "56:Does the confirmed case of Massachusetts increase with the confirmed case of New Jersey??"
         },
         {
             "id":57,
-            "title": "57:Find something interesting from the timeline or explore a time interval you have not checked so far"
+            "title": "57:Does the recovered case of North Carolina increase with the confirmed case of Florida?"
         },
         {
             "id":58,
-            "title": "58:Select different attributes"
+            "title": "58:Find something interesting from the timeline or explore a time interval you have not checked so far"
         },
         {
             "id":59,
-            "title": "59:Select different attributes"
+            "title": "59:Find something interesting from the timeline or explore a time interval you have not checked so far"
         },
         {
             "id":60,
-            "title": "60:Select different attributes"
+            "title": "60:Find something interesting from the timeline or explore a time interval you have not checked so far"
         },
         {
             "id":61,
-            "title": "61:Select a state"
+            "title": "61:Select different attributes"
         },
         {
             "id":62,
-            "title": "62:Select a state"
+            "title": "62:Select different attributes"
         },
         {
             "id":63,
-            "title": "63:Select a state"
+            "title": "63:Select different attributes"
         },
         {
             "id":64,
-            "title": "64:Switch a different time stamp"
+            "title": "64:Select a state"
         },
         {
             "id":65,
-            "title": "65:Switch a different time stamp"
+            "title": "65:Select a state"
         },
         {
             "id":66,
-            "title": "66:Switch a different time stamp"
+            "title": "66:Select a state"
         },
         {
             "id":67,
-            "title": "67:Summarize average value of states in the west coast in the second half time interval"
+            "title": "67:Switch a different time stamp"
         },
         {
             "id":68,
-            "title": "68:Summarize average value of states in the east coast in the second half time interval"
+            "title": "68:Switch a different time stamp"
         },
         {
             "id":69,
-            "title": "69:Summarize average value of states in the middle west in the second half time interval"
+            "title": "69:Switch a different time stamp"
         },
         {
             "id":70,
-            "title": "70:Find the maximum value of states in the west coast in the second half time interval"
+            "title": "70:Summarize average value of states in the west coast in the second half time interval"
         },
         {
             "id":71,
-            "title": "71:Find the maximum value of states in the east coast in the second half time interval"
+            "title": "71:Summarize average value of states in the east coast in the second half time interval"
         },
         {
             "id":72,
-            "title": "72:Find the maximum value of states in the middle west in the second half time interval"
+            "title": "72:Summarize average value of states in the middle west in the second half time interval"
         },
         {
             "id":73,
-            "title": "73:Sort states in the west coast within the first half time interval based on average value?"
+            "title": "73:Find the maximum value of states in the west coast in the second half time interval"
         },
         {
             "id":74,
-            "title": "74:Sort states in the east coast within the first half time interval based on increasing rate?"
+            "title": "74:Find the maximum value of states in the east coast in the second half time interval"
         },
         {
             "id":75,
-            "title": "75:Sort states in the west coast within the first half time interval based on increasing rate?"
+            "title": "75:Find the maximum value of states in the middle west in the second half time interval"
         },
         {
             "id":76,
-            "title": "76:What is the data range between the average confirmed case number in the west coast at the middle of time interval?"
+            "title": "76:Sort states in the west coast within the first half time interval based on average value?"
         },
         {
             "id":77,
-            "title": "77:What is the data range between the average confirmed case number in the east coast at the middle of time interval?"
+            "title": "77:Sort states in the east coast within the first half time interval based on increasing rate?"
         },
         {
             "id":78,
-            "title": "78:What is the data range between the average confirmed case number in the south at the middle of time interval?"
+            "title": "78:Sort states in the west coast within the first half time interval based on increasing rate?"
         },
         {
             "id":79,
-            "title": "79:Describe the distribution of confirmed cases among west coast in the middle time stamp?"
+            "title": "79:What is the data range between the average confirmed case number in the west coast at the middle of time interval?"
         },
         {
             "id":80,
-            "title": "80:Describe the distribution of confirmed cases among middle west in the middle time stamp?"
+            "title": "80:What is the data range between the average confirmed case number in the east coast at the middle of time interval?"
         },
         {
             "id":81,
-            "title": "81:Describe the distribution of confirmed cases among southern states in the middle time stamp?"
+            "title": "81:What is the data range between the average confirmed case number in the south at the middle of time interval?"
         },
         {
             "id":82,
-            "title": "82:Are there outliers in the middle west in the second half time interval?"
+            "title": "82:Describe the distribution of confirmed cases among west coast in the middle time stamp?"
         },
         {
             "id":83,
-            "title": "83:Are there outliers in the west coast in the second half time interval?"
+            "title": "83:Describe the distribution of confirmed cases among middle west in the middle time stamp?"
         },
         {
             "id":84,
-            "title": "84:Are there outliers in the south in the second half time interval?"
+            "title": "84:Describe the distribution of confirmed cases among southern states in the middle time stamp?"
         },
         {
             "id":85,
-            "title": "85:Are there other states similar to data trends in North Carolina?"
+            "title": "85:Are there outliers in the middle west in the second half time interval?"
         },
         {
             "id":86,
-            "title": "86:Are there other states similar to data trends in Texas?"
+            "title": "86:Are there outliers in the west coast in the second half time interval?"
         },
         {
             "id":87,
-            "title": "87:Are there other states similar to data trends in Missouri?"
+            "title": "87:Are there outliers in the south in the second half time interval?"
         },
         {
             "id":88,
-            "title": "88:Is there a correlation between data of north states and south states?"
+            "title": "88:Are there other states similar to data trends in North Carolina?"
         },
         {
             "id":89,
-            "title": "89:Is there a correlation between data of east states and west states?"
+            "title": "89:Are there other states similar to data trends in Texas?"
         },
         {
             "id":90,
-            "title": "90:Is there a correlation between data of eastsouth states and northwest states?"
+            "title": "90:Are there other states similar to data trends in Missouri?"
         },
         {
             "id":91,
-            "title": "91:Find something you are interested in or find something new with both visualizations"
+            "title": "91:Is there a correlation between data of north states and south states?"
         },
         {
             "id":92,
-            "title": "92:Find something you are interested in or find something new with both visualizations"
+            "title": "92:Is there a correlation between data of east states and west states?"
         },
         {
             "id":93,
-            "title": "93:Find something you are interested in or find something new with both visualizations"
+            "title": "93:Is there a correlation between data of eastsouth states and northwest states?"
         },
         {
             "id":94,
-            "title": "94:Explore the whole data, find 10 insights related to the handling of pandemic. At the end, draw a conclusion how to better handle such situations based on your findings."
+            "title": "94:Find something you are interested in or find something new with both visualizations"
+        },
+        {
+            "id":95,
+            "title": "95:Find something you are interested in or find something new with both visualizations"
+        },
+        {
+            "id":96,
+            "title": "96:Find something you are interested in or find something new with both visualizations"
+        },
+        {
+            "id":97,
+            "title": "97:Explore the whole data, find 10 insights related to the handling of pandemic. At the end, draw a conclusion how to better handle such situations based on your findings."
         },
         {
             "id":999,
